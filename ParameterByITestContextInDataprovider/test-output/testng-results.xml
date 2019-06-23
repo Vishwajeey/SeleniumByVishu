@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18855" started-at="2018-08-17T21:58:33Z" finished-at="2018-08-17T21:58:51Z">
+    <groups>
+      <group name="A">
+        <method signature="ParameterByITestContextInDataprovider.testMethodA(java.lang.String, java.lang.String)[pri:0, instance:com.test.ParameterByITestContextInDataprovider@14acaea5]" name="testMethodA" class="com.test.ParameterByITestContextInDataprovider"/>
+      </group> <!-- A -->
+      <group name="B">
+        <method signature="ParameterByITestContextInDataprovider.testMethodB(java.lang.String)[pri:1, instance:com.test.ParameterByITestContextInDataprovider@14acaea5]" name="testMethodB" class="com.test.ParameterByITestContextInDataprovider"/>
+      </group> <!-- B -->
+    </groups>
+    <test name="Default test" duration-ms="18855" started-at="2018-08-17T21:58:33Z" finished-at="2018-08-17T21:58:51Z">
+      <class name="com.test.ParameterByITestContextInDataprovider">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.test.ParameterByITestContextInDataprovider@14acaea5]" name="beforeTest" is-config="true" duration-ms="18711" started-at="2018-08-17T21:58:33Z" finished-at="2018-08-17T21:58:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="testMethodA(java.lang.String, java.lang.String)[pri:0, instance:com.test.ParameterByITestContextInDataprovider@14acaea5]" name="testMethodA" duration-ms="0" started-at="2018-08-17T21:58:51Z" data-provider="SearchProvider" finished-at="2018-08-17T21:58:51Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Data Provider public java.lang.Object[][] com.test.ParameterByITestContextInDataprovider.dataProvider(org.testng.ITestContext) returned a null value]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Data Provider public java.lang.Object[][] com.test.ParameterByITestContextInDataprovider.dataProvider(org.testng.ITestContext) returned a null value
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:133)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:923)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodA -->
+        <test-method status="FAIL" signature="testMethodB(java.lang.String)[pri:1, instance:com.test.ParameterByITestContextInDataprovider@14acaea5]" name="testMethodB" duration-ms="0" started-at="2018-08-17T21:58:51Z" data-provider="SearchProvider" finished-at="2018-08-17T21:58:51Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Data Provider public java.lang.Object[][] com.test.ParameterByITestContextInDataprovider.dataProvider(org.testng.ITestContext) returned a null value]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Data Provider public java.lang.Object[][] com.test.ParameterByITestContextInDataprovider.dataProvider(org.testng.ITestContext) returned a null value
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:133)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:923)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethodB -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.test.ParameterByITestContextInDataprovider@14acaea5]" name="afterTest" is-config="true" duration-ms="2" started-at="2018-08-17T21:58:51Z" finished-at="2018-08-17T21:58:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.test.ParameterByITestContextInDataprovider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

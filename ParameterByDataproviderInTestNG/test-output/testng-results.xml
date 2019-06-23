@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26922" started-at="2018-08-15T07:29:50Z" finished-at="2018-08-15T07:30:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26922" started-at="2018-08-15T07:29:50Z" finished-at="2018-08-15T07:30:17Z">
+      <class name="com.test.ParameterByDataprovider">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.test.ParameterByDataprovider@224edc67]" name="setUp" is-config="true" duration-ms="13638" started-at="2018-08-15T07:29:50Z" finished-at="2018-08-15T07:30:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testMEthod(java.lang.String, java.lang.String)[pri:0, instance:com.test.ParameterByDataprovider@224edc67]" name="testMEthod" duration-ms="4337" started-at="2018-08-15T07:30:04Z" data-provider="SerachProvider" finished-at="2018-08-15T07:30:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Guru99]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMEthod -->
+        <test-method status="PASS" signature="testMEthod(java.lang.String, java.lang.String)[pri:0, instance:com.test.ParameterByDataprovider@224edc67]" name="testMEthod" duration-ms="3192" started-at="2018-08-15T07:30:08Z" data-provider="SerachProvider" finished-at="2018-08-15T07:30:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Krishna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMEthod -->
+        <test-method status="PASS" signature="testMEthod(java.lang.String, java.lang.String)[pri:0, instance:com.test.ParameterByDataprovider@224edc67]" name="testMEthod" duration-ms="3302" started-at="2018-08-15T07:30:12Z" data-provider="SerachProvider" finished-at="2018-08-15T07:30:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhupesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMEthod -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.test.ParameterByDataprovider@224edc67]" name="close" is-config="true" duration-ms="2383" started-at="2018-08-15T07:30:15Z" finished-at="2018-08-15T07:30:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.test.ParameterByDataprovider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

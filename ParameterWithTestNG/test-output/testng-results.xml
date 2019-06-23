@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="13928" started-at="2018-08-04T06:56:33Z" finished-at="2018-08-04T06:56:47Z">
+    <groups>
+    </groups>
+    <test name="testGuru" duration-ms="13928" started-at="2018-08-04T06:56:33Z" finished-at="2018-08-04T06:56:47Z">
+      <class name="com.test.ParameterWithTestNG1">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:com.test.ParameterWithTestNG1@c038203]" name="f" duration-ms="13866" started-at="2018-08-04T06:56:33Z" finished-at="2018-08-04T06:56:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Guru99]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.test.ParameterWithTestNG1 -->
+    </test> <!-- testGuru -->
+  </suite> <!-- TestSuite -->
+</testng-results>
