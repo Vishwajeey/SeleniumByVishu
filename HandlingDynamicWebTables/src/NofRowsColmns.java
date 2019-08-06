@@ -1,6 +1,7 @@
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import org.junit.runner.JUnitCore;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -24,6 +25,7 @@ public class NofRowsColmns {
 		for(int row=0;row<rows;row++) {
 			//To locate the columns of that specific row
 			List<WebElement> numOfColumn=numOfRows.get(row).findElements(By.tagName("td"));
+			
 			//To calculate no of columns(cell) in that specific row
 			int columnCount=numOfColumn.size();
 			System.out.println("Number of cells in row"+row+"column Count"+columnCount);
